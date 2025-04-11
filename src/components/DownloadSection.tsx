@@ -46,11 +46,11 @@ const DownloadSection = () => {
           {/* Right side with app mockup */}
           <div className="w-full md:w-1/2 relative">
             <img 
-              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+              src="/lovable-uploads/c4c452b1-8168-4120-83e1-0a73559dc7d6.png" 
               alt="Hevy App Screenshots" 
               className="w-full max-w-md mx-auto"
             />
-            <div className="absolute -top-10 -right-10 w-40 h-40 bg-hevy-purple/20 rounded-full blur-3xl"></div>
+            <div className="absolute -top-10 -right-10 w-40 h-40 bg-hevy-purple/20 rounded-full blur-3xl -z-10"></div>
           </div>
         </div>
       </div>
