@@ -1,23 +1,27 @@
 
 import React from 'react';
 import { Check } from 'lucide-react';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const WorkoutsSection = () => {
   return (
     <section id="workouts" className="hevy-section bg-gradient-to-b from-white to-gray-50">
       <div className="container px-4 mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Left side with app screenshot */}
+          {/* Left side with video */}
           <div className="w-full md:w-1/2 relative">
-            <div className="relative animate-float">
-              <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                alt="Hevy Workout Tracking" 
-                className="w-full max-w-md mx-auto rounded-3xl shadow-2xl"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-hevy-purple/20 to-transparent rounded-3xl"></div>
+            <div className="relative rounded-3xl shadow-2xl overflow-hidden">
+              <AspectRatio ratio={16 / 9}>
+                <iframe
+                  src="https://www.youtube.com/embed/4PHDer57oq4"
+                  title="Hevy Workout Tracking"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </AspectRatio>
+              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-hevy-purple/10 rounded-full blur-2xl -z-10"></div>
             </div>
-            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-hevy-purple/10 rounded-full blur-2xl"></div>
           </div>
           
           {/* Right side with text content */}

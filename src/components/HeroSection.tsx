@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const HeroSection = () => {
   return (
@@ -35,18 +36,21 @@ const HeroSection = () => {
             </div>
           </div>
           
-          {/* Right side with app mockup */}
+          {/* Right side with video instead of app mockup */}
           <div className="w-full md:w-1/2 relative">
-            <div className="relative animate-float">
-              <img 
-                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                alt="Hevy App Screenshots" 
-                className="w-full max-w-md mx-auto rounded-3xl shadow-2xl"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-hevy-purple/20 to-transparent rounded-3xl"></div>
+            <div className="relative rounded-3xl shadow-2xl overflow-hidden">
+              <AspectRatio ratio={16 / 9}>
+                <iframe
+                  src="https://www.youtube.com/embed/JRzWRZahOVU"
+                  title="Hevy App Tutorial"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </AspectRatio>
+              <div className="absolute -bottom-16 -right-16 w-32 h-32 bg-hevy-lightPurple/20 rounded-full blur-2xl -z-10"></div>
+              <div className="absolute -top-8 -left-8 w-24 h-24 bg-hevy-purple/20 rounded-full blur-xl -z-10"></div>
             </div>
-            <div className="absolute -bottom-16 -right-16 w-32 h-32 bg-hevy-lightPurple/20 rounded-full blur-2xl"></div>
-            <div className="absolute -top-8 -left-8 w-24 h-24 bg-hevy-purple/20 rounded-full blur-xl"></div>
           </div>
         </div>
       </div>
