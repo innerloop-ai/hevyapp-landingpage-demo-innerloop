@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Apple, Play, Download } from 'lucide-react';
 
 const testimonials = [
   {
@@ -72,25 +72,17 @@ const CommunitySection = () => {
               href="https://apps.apple.com/app/hevy-gym-workout-tracker/id1490335177"
               target="_blank"
               rel="noopener noreferrer"
-              className="block mb-4 transition-transform hover:scale-105"
+              className="block mb-4 transition-transform hover:scale-105 bg-white text-hevy-darkBlue hover:bg-gray-100 rounded-lg px-6 py-3 flex items-center justify-center gap-2 font-semibold"
             >
-              <img 
-                src="https://www.hevyapp.com/wp-content/uploads/2022/08/download-on-the-app-store.svg" 
-                alt="Download on the App Store" 
-                className="h-14 mx-auto"
-              />
+              <Download size={20} /> iOS App
             </a>
             <a 
               href="https://play.google.com/store/apps/details?id=com.hevy.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="block transition-transform hover:scale-105"
+              className="block transition-transform hover:scale-105 bg-white text-hevy-darkBlue hover:bg-gray-100 rounded-lg px-6 py-3 flex items-center justify-center gap-2 font-semibold"
             >
-              <img 
-                src="https://www.hevyapp.com/wp-content/uploads/2022/08/google-play-badge.png" 
-                alt="Get it on Google Play" 
-                className="h-14 mx-auto"
-              />
+              <Download size={20} /> Android App
             </a>
           </div>
         </div>

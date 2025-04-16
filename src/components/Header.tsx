@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Dumbbell } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Header = () => {
@@ -12,8 +11,9 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center">
-            <a href="#" className="flex items-center space-x-2">
-              <img src="https://www.hevyapp.com/wp-content/uploads/2022/06/logo-hevy-1.svg" alt="Hevy" className="h-8 md:h-10" />
+            <a href="/" className="flex items-center space-x-2">
+              <Dumbbell className="h-8 w-8 md:h-10 md:w-10 text-hevy-purple" />
+              <div className="font-bold text-xl md:text-2xl text-hevy-purple">HEVY</div>
             </a>
           </div>
           <nav className="hidden md:flex items-center space-x-8">

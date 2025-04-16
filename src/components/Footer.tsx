@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Instagram, Twitter, Facebook } from 'lucide-react';
+import { Instagram, Twitter, Facebook, Dumbbell } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +9,10 @@ const Footer = () => {
       <div className="container px-4 mx-auto">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="mb-8 md:mb-0">
-            <img src="https://www.hevyapp.com/wp-content/uploads/2022/06/logo-hevy-1.svg" alt="Hevy" className="h-8 mb-4" />
+            <div className="flex items-center mb-4">
+              <Dumbbell className="h-8 w-8 text-hevy-purple" />
+              <div className="font-bold text-xl text-hevy-purple ml-2">HEVY</div>
+            </div>
             <p className="text-gray-600 max-w-xs">
               The workout tracker for people who want to make progress in the gym.
             </p>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Check } from 'lucide-react';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
@@ -13,8 +12,8 @@ const WorkoutsSection = () => {
             <div className="relative rounded-3xl shadow-2xl overflow-hidden">
               <AspectRatio ratio={16 / 9}>
                 <iframe
-                  src="https://www.youtube.com/embed/4PHDer57oq4"
-                  title="Hevy Workout Tracking"
+                  src="https://www.youtube.com/embed/UItWltVZZmE"
+                  title="Ultimate Full Body Workout for All Levels"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   className="w-full h-full"
