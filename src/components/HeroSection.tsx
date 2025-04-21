@@ -26,27 +26,26 @@ const HeroSection = () => {
             </div>
             <div className="flex items-center gap-4 pt-4">
               <div className="flex -space-x-2">
-                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
-                <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
-                <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
+                <img src="https://play.innerloop.stream/playersvc/ins-share/cu-vcy04b4BqML9Jr8StVQKT" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
+                <img src="https://play.innerloop.stream/playersvc/ins-share/cu-lnkr7aCGE7YFSPHykzK77" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
+                <img src="https://play.innerloop.stream/playersvc/ins-share/cu-FUWghnXqIX1jYgnkiU29n" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
               </div>
               <p className="text-sm text-gray-600">
                 <span className="font-semibold text-hevy-purple">1M+</span> active users
               </p>
             </div>
           </div>
-          
+
           {/* Right side with video instead of app mockup */}
           <div className="w-full md:w-1/2 relative">
             <div className="relative rounded-3xl shadow-2xl overflow-hidden">
               <AspectRatio ratio={16 / 9}>
-                <iframe
-                  src="https://www.youtube.com/embed/JRzWRZahOVU"
-                  title="Hevy App Tutorial"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+                <iframe allowfullscreen width="760" height="515" src="https://play.innerloop.stream/playersvc/ins-share/cu-71lR1BZ2UAlmfJ0dPoxP2"
+                  title = "HEVY app"
+                  frame-border="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;encrypted-media"
                   className="w-full h-full"
-                ></iframe>
+                  ></iframe>
               </AspectRatio>
               <div className="absolute -bottom-16 -right-16 w-32 h-32 bg-hevy-lightPurple/20 rounded-full blur-2xl -z-10"></div>
               <div className="absolute -top-8 -left-8 w-24 h-24 bg-hevy-purple/20 rounded-full blur-xl -z-10"></div>

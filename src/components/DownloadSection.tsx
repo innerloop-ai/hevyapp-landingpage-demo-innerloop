@@ -3,7 +3,7 @@ import { Star, Download } from 'lucide-react';
 
 const DownloadSection = () => {
   return (
-    <section id="download" className="hevy-section bg-hevy-darkBlue text-white">
+    <section id="download" className="hevy-section bg-black text-white">
       <div className="container px-4 mx-auto">
         <div className="flex flex-col md:flex-row items-center">
           {/* Left side with text content */}
@@ -14,14 +14,14 @@ const DownloadSection = () => {
             <p className="text-lg opacity-90">
               Join over 1 million users who trust Hevy to track their workouts. Available on iOS and Android.
             </p>
-            
+
             <div className="flex items-center space-x-2 my-4">
               {[1, 2, 3, 4, 5].map((star) => (
                 <Star key={star} size={24} className="text-yellow-400 fill-yellow-400" />
               ))}
               <span className="ml-2 text-lg font-medium">4.9/5</span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="https://apps.apple.com/app/hevy-gym-workout-tracker/id1490335177"
@@ -41,11 +41,11 @@ const DownloadSection = () => {
               </a>
             </div>
           </div>
-          
+
           {/* Right side with app mockup */}
           <div className="w-full md:w-1/2 relative">
             <img 
-              src="/lovable-uploads/c4c452b1-8168-4120-83e1-0a73559dc7d6.png" 
+              src="https://play.innerloop.stream/playersvc/ins-share/cu-tEeaEZt1XHHQHB39tVHDg"
               alt="Hevy App Screenshots" 
               className="w-full max-w-md mx-auto"
             />

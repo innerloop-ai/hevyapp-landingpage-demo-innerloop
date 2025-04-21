@@ -11,18 +11,17 @@ const WorkoutsSection = () => {
           <div className="w-full md:w-1/2 relative">
             <div className="relative rounded-3xl shadow-2xl overflow-hidden">
               <AspectRatio ratio={16 / 9}>
-                <iframe
-                  src="https://www.youtube.com/embed/UItWltVZZmE"
-                  title="Ultimate Full Body Workout for All Levels"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+                <iframe allowfullscreen width="760" height="515" src="https://play.innerloop.stream/playersvc/ins-share/cu-ck5HRiP6NdjPZuZUeDGzf"
+                  title="review"
+                  frame-border="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;encrypted-media"
                   className="w-full h-full"
                 ></iframe>
               </AspectRatio>
               <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-hevy-purple/10 rounded-full blur-2xl -z-10"></div>
             </div>
           </div>
-          
+
           {/* Right side with text content */}
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold">

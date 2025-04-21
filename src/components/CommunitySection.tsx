@@ -6,19 +6,19 @@ const testimonials = [
     content: "Hevy has transformed how I track my fitness progress. The interface is intuitive and the social features keep me motivated!",
     author: "Sarah J.",
     role: "Fitness Enthusiast",
-    image: "https://randomuser.me/api/portraits/women/12.jpg"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu-dL7zCFLxzCZqgsbQ2xoIQ"
   },
   {
     content: "As a personal trainer, I recommend Hevy to all my clients. The workout tracking capabilities are unmatched, and the progress charts are incredibly useful.",
     author: "Mike T.",
     role: "Personal Trainer",
-    image: "https://randomuser.me/api/portraits/men/32.jpg"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu--lmveEt4U3LEmhp24d_4r"
   },
   {
     content: "The best workout tracker I've used. Being able to see my friends' workouts and share my own keeps me motivated and accountable.",
     author: "Alex W.",
     role: "CrossFit Athlete",
-    image: "https://randomuser.me/api/portraits/women/28.jpg"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu-a4yZ6qqwQz3M-h-vIV53B"
   }
 ];
 
