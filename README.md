@@ -3,6 +3,9 @@
 ## Project Overview
 This is a landing page for Hevy, a workout tracker and planning application that helps users track their fitness progress and connect with other fitness enthusiasts.
 
+## Live Demo
+Check out the live demo of the application: [Hevy App Landing Page](https://hevyapp-landingpage-demo-innerloop.pages.dev/)
+
 ## Technologies Used
 This project is built with:
 
@@ -28,3 +31,4 @@ npm install
 
 # Start the development server
 npm run dev
+```
